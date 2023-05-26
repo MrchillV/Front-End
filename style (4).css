@@ -1,0 +1,107 @@
+
+body {
+  background-color: rgb(255,255,255);
+  margin: 0;
+  width: 100%
+}
+
+header {
+  background-color: rgb(255,255,255);
+  height: 100px;
+}
+
+img {
+  background-color: rgb(0,0,128);
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+ 
+.nav ul {
+  background-color: rgb(0,0,128);
+  list-style: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.nav li {
+  background-color: rgb(0,0,128);
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+  right: 30px;
+}
+ 
+.nav a {
+  color: rgb(255,255,255);
+  position: relative;
+  left: 400px;
+  text-decoration: none;
+  /* I added a position relative and left here to move the linked unorded list more to the right of the page */
+}
+
+section {
+  background-color: rgb(255,255,255);
+  width: 840px;
+  margin: 50px auto 0 auto;
+  margin: 100px 300px;
+}
+
+.section-box{
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  background-color: #FDDC5C;
+  height: 260px;
+  margin-right: 40px;
+  text-align: center;
+  color: rgb(0,0,128);
+  padding: 20px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  /* Added a text-align and color to add more color to the text and align the text to be more in the center */
+  /* Changed the background color to add contrast to the other colors on the webpage */
+}
+
+#quote-form-container {
+  background-color: rgb(255,255,255);
+  padding: 20px;
+  margin-top: 30px;
+  height: 180px;
+  width: 400px;
+  border: 2px solid rgb(0,0,128);
+  border-radius: 15px;
+  font-size: 20px;
+  color: rgb(0,0,128);
+  /* Added a border style to add style to the website and added a border color and radius to adjust the curvature and add color to the border */
+}
+
+#quote-form {
+  background-color: rgb(255,255,255);
+  text-align: center;
+  
+}
+
+.form-field{
+  margin-bottom: 15px;
+  
+}
+
+
+button {
+  border: None;
+  background-color: rgb(0,0,128);
+  font-size: 16px;
+  color: white;
+  height: 30px;
+  width:  60px;
+}
+
+
